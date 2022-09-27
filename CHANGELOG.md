@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/cubanducko/playwright-shared-context-fixture/compare/v1.0.0...v1.0.1) (2022-09-27)
+
+
+### Bug Fixes
+
+* 🐛 small README change ([4ddaa7b](https://github.com/cubanducko/playwright-shared-context-fixture/commit/4ddaa7b57e1defea4eadc3bfef2ed45ad48cfd35))
+
 # 1.0.0 (2022-09-27)
 
 
