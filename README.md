@@ -12,7 +12,7 @@
 
 [![Build Status][build-badge]][build-link]
 [![Code Style][prettier-badge]][prettier-link]
-[![Package Version][npm-badge]][npm-link] <br>
+[![Package Version][npm-badge]][npm-link]
 [![MIT License][license-badge]][license-link]
 
 </div>
