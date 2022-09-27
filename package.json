@@ -11,6 +11,7 @@
     "lint:fix": "pnpm lint --fix",
     "lint:types": "tsc --noEmit",
     "test": "jest --maxWorkers=40% --logHeapUsage",
+    "prepublishOnly": "pnpm build",
     "semantic-release": "semantic-release"
   },
   "repository": {
