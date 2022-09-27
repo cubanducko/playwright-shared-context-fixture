@@ -1,3 +1,11 @@
+## [1.0.2](https://github.com/cubanducko/playwright-shared-context-fixture/compare/v1.0.1...v1.0.2) (2022-09-27)
+
+
+### Bug Fixes
+
+* 🐛 address empty npm build ([9903a99](https://github.com/cubanducko/playwright-shared-context-fixture/commit/9903a992dffdd0760e9186215420ccdea6bf8946))
+* 🐛 adjust github actions format ([57bb65f](https://github.com/cubanducko/playwright-shared-context-fixture/commit/57bb65fb2e08a9dfae1eea6794f4ad67c96b6992))
+
 ## [1.0.1](https://github.com/cubanducko/playwright-shared-context-fixture/compare/v1.0.0...v1.0.1) (2022-09-27)
 
 
