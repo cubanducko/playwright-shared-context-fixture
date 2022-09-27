@@ -80,8 +80,5 @@
       "eslint --fix",
       "git add"
     ]
-  },
-  "dependencies": {
-    "playwright-shared-context-fixture": "file:.yalc/playwright-shared-context-fixture"
   }
 }
