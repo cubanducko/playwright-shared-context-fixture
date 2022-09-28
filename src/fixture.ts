@@ -22,7 +22,12 @@ export function createSharedContextFixture(): Fixtures<
         browserName,
         contextOptions,
       });
-      use(context);
+      await use(context);
+    },
+    page: async ({ context }, use) => {
+      const page = await context.newPage();
+      await use(page);
+      await page.close();
     },
   };
 }

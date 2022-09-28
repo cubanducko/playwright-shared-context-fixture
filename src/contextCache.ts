@@ -29,6 +29,8 @@ export class ContextCache {
       return this.cache.get(id) as BrowserContext;
     } else {
       const context = await browser.newContext(contextOptions);
+      // Create a blank page to ensure stays open
+      await context.newPage();
       this.cache.set(id, context);
       return context;
     }
