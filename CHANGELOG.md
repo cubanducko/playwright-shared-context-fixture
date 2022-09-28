@@ -1,3 +1,15 @@
+# [1.1.0](https://github.com/cubanducko/playwright-shared-context-fixture/compare/v1.0.2...v1.1.0) (2022-09-28)
+
+
+### Bug Fixes
+
+* 🐛 adjust failing test ([82b52d6](https://github.com/cubanducko/playwright-shared-context-fixture/commit/82b52d6dec620417007c03b9718c38423a3afb6c))
+
+
+### Features
+
+* 🎸 optimize to ensure one browser stays open ([5a3faa4](https://github.com/cubanducko/playwright-shared-context-fixture/commit/5a3faa47a264c98ce998a550cf2cb1fe29d19a19))
+
 ## [1.0.2](https://github.com/cubanducko/playwright-shared-context-fixture/compare/v1.0.1...v1.0.2) (2022-09-27)
 
 
