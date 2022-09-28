@@ -5,7 +5,7 @@ describe("ContextCache", () => {
   const playwrightMock = {
     browser: {
       // Return a new object with different reference
-      newContext: async () => ({ foo: "bar" }),
+      newContext: async () => ({ newPage: () => undefined }),
     } as unknown as Browser,
     browserName: "firefox",
     baseURL: "test",
