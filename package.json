@@ -1,6 +1,6 @@
 {
   "name": "playwright-shared-context-fixture",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -31,7 +31,7 @@
     "utility"
   ],
   "devDependencies": {
-    "@playwright/test": "1.26.0",
+    "@playwright/test": "1.26.1",
     "@semantic-release/changelog": "6.0.1",
     "@semantic-release/git": "10.0.1",
     "@semantic-release/npm": "9.0.1",
@@ -46,7 +46,7 @@
     "semantic-release": "19.0.5",
     "ts-jest": "29.0.2",
     "tsup": "6.2.3",
-    "typescript": "4.8.3"
+    "typescript": "4.8.4"
   },
   "peerDependencies": {
     "@playwright/test": "^1.26.0"
