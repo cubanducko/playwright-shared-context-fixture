@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@playwright/test': 1.26.1
+  '@playwright/test': 1.28.1
   '@semantic-release/changelog': 6.0.1
   '@semantic-release/git': 10.0.1
   '@semantic-release/npm': 9.0.1
@@ -19,7 +19,7 @@ specifiers:
   typescript: 4.8.4
 
 devDependencies:
-  '@playwright/test': 1.26.1
+  '@playwright/test': 1.28.1
   '@semantic-release/changelog': 6.0.1_semantic-release@19.0.5
   '@semantic-release/git': 10.0.1_semantic-release@19.0.5
   '@semantic-release/npm': 9.0.1_semantic-release@19.0.5
@@ -848,13 +848,13 @@ packages:
       '@octokit/openapi-types': 13.12.0
     dev: true
 
-  /@playwright/test/1.26.1:
-    resolution: {integrity: sha512-bNxyZASVt2adSZ9gbD7NCydzcb5JaI0OR9hc7s+nmPeH604gwp0zp17NNpwXY4c8nvuBGQQ9oGDx72LE+cUWvw==}
+  /@playwright/test/1.28.1:
+    resolution: {integrity: sha512-xN6spdqrNlwSn9KabIhqfZR7IWjPpFK1835tFNgjrlysaSezuX8PYUwaz38V/yI8TJLG9PkAMEXoHRXYXlpTPQ==}
     engines: {node: '>=14'}
     hasBin: true
     dependencies:
       '@types/node': 18.7.23
-      playwright-core: 1.26.1
+      playwright-core: 1.28.1
     dev: true
 
   /@semantic-release/changelog/6.0.1_semantic-release@19.0.5:
@@ -4112,8 +4112,8 @@ packages:
       find-up: 4.1.0
     dev: true
 
-  /playwright-core/1.26.1:
-    resolution: {integrity: sha512-hzFchhhxnEiPc4qVPs9q2ZR+5eKNifY2hQDHtg1HnTTUuphYCBP8ZRb2si+B1TR7BHirgXaPi48LIye5SgrLAA==}
+  /playwright-core/1.28.1:
+    resolution: {integrity: sha512-3PixLnGPno0E8rSBJjtwqTwJe3Yw72QwBBBxNoukIj3lEeBNXwbNiKrNuB1oyQgTBw5QHUhNO3SteEtHaMK6ag==}
     engines: {node: '>=14'}
     hasBin: true
     dev: true
