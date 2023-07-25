@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@playwright/test': 1.26.1
+  '@playwright/test': 1.36.2
   '@semantic-release/changelog': 6.0.1
   '@semantic-release/git': 10.0.1
   '@semantic-release/npm': 9.0.1
@@ -19,7 +19,7 @@ specifiers:
   typescript: 4.8.4
 
 devDependencies:
-  '@playwright/test': 1.26.1
+  '@playwright/test': 1.36.2
   '@semantic-release/changelog': 6.0.1_semantic-release@19.0.5
   '@semantic-release/git': 10.0.1_semantic-release@19.0.5
   '@semantic-release/npm': 9.0.1_semantic-release@19.0.5
@@ -848,13 +848,15 @@ packages:
       '@octokit/openapi-types': 13.12.0
     dev: true
 
-  /@playwright/test/1.26.1:
-    resolution: {integrity: sha512-bNxyZASVt2adSZ9gbD7NCydzcb5JaI0OR9hc7s+nmPeH604gwp0zp17NNpwXY4c8nvuBGQQ9oGDx72LE+cUWvw==}
-    engines: {node: '>=14'}
+  /@playwright/test/1.36.2:
+    resolution: {integrity: sha512-2rVZeyPRjxfPH6J0oGJqE8YxiM1IBRyM8hyrXYK7eSiAqmbNhxwcLa7dZ7fy9Kj26V7FYia5fh9XJRq4Dqme+g==}
+    engines: {node: '>=16'}
     hasBin: true
     dependencies:
       '@types/node': 18.7.23
-      playwright-core: 1.26.1
+      playwright-core: 1.36.2
+    optionalDependencies:
+      fsevents: 2.3.2
     dev: true
 
   /@semantic-release/changelog/6.0.1_semantic-release@19.0.5:
@@ -4112,9 +4114,9 @@ packages:
       find-up: 4.1.0
     dev: true
 
-  /playwright-core/1.26.1:
-    resolution: {integrity: sha512-hzFchhhxnEiPc4qVPs9q2ZR+5eKNifY2hQDHtg1HnTTUuphYCBP8ZRb2si+B1TR7BHirgXaPi48LIye5SgrLAA==}
-    engines: {node: '>=14'}
+  /playwright-core/1.36.2:
+    resolution: {integrity: sha512-sQYZt31dwkqxOrP7xy2ggDfEzUxM1lodjhsQ3NMMv5uGTRDsLxU0e4xf4wwMkF2gplIxf17QMBCodSFgm6bFVQ==}
+    engines: {node: '>=16'}
     hasBin: true
     dev: true
 
